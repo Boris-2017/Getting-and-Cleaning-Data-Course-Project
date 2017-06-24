@@ -6,9 +6,11 @@ The purpose of this project is to obtain a final tidy data set suitable for furt
 
 ## Original Data 
 
-The original data set is taken from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. 
+The original data set is taken from:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. 
 
-The original data are fully described at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and in the following publication:
+The original data are fully described at:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and in the following publication:
 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
@@ -25,9 +27,9 @@ Final_Tidy_Data.txt| Space-separated text file | Final tidy data set - the outco
 
 ## Sequence of Steps to Produce Final Tidy Data Set and Further Information
 
-1. Unzip original data set into a directory that must then be made the R working directory for the run_analysis.R code generating the tidy data set to operate correctly.
+1. Unzip original data set (consisting of a training and test data sets and associated files) into a directory that must then be made the R working directory for the run_analysis.R code generating the tidy data set to operate correctly.
 2. Run run_analysis.R. It will, following the course project instructions:
-	1. Add activity and subject identifiers to each of training and test datasets
+	1. Add activity and subject identifiers to each of training and test datasets in the working directory.
 	2. Append the two data sets.
 	3. Extract only the mean and standard deviation of each measured variable in a standard 2.56s window.  
 	4. Remove any inadmissible values.
