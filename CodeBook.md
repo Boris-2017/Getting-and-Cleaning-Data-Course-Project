@@ -59,7 +59,8 @@ The current tidy data set was obtained by:
 
 The variables below are described in the order in which they appear in the tidy data set. Note that none of these variables have any units: the ID variables are categorical and the Doubleal variables are all normalised between -1 and 1. For the Doubleal variables, a separate decsription is not given as they are all means of the quantity specified by the name of column and described above under Original Data Feature Selection.
 
-#Column No. - #Name - #Type - #Description
+Column No. | Name | Type | Description
+-----------|------|------|------------
 1 | Activity | Category | Subject activity type: one of "laying", "sitting", "standing", "walking", "walking downstairs" and "walking upstairs"
 2 | Subject_ID | Category | Subject identifier: an integer between 1 and 30
 3	|	tBodyAcc-mean()-X	|	Double	|	Between -1 and 1
