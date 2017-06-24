@@ -50,18 +50,19 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-## This Tidy Data Set
+## This Tidy Data Set: Final_Tidy_Data.txt
 
-The current tidy data set was obtained by:
+The current tidy data set has 180 rows ( + the header row) and 81 columns. It was obtained by:
+
 1. Combining the test and training data sets described above.
 2. Averaging each mean and each standard deviation variable described above for every combination of activity type and subject. 
 3. Adding subject IDs, descriptive acitvity and variable labels.
 
-The variables below are described in the order in which they appear in the tidy data set. Note that none of these variables have any units: the ID variables are categorical and the Doubleal variables are all normalised between -1 and 1. For the Doubleal variables, a separate decsription is not given as they are all means of the quantity specified by the name of column and described above under Original Data Feature Selection.
+The variables below are described in the order in which they appear in the tidy data set. Note that none of these variables have any units: the ID variables are categorical and the double variables are all normalised between -1 and 1. For the double variables, a separate decsription is not given as they are all means of the quantity specified by the name of column and described above under Original Data Feature Selection.
 
 Column No. | Name | Type | Description
 -----------|------|------|------------
-1 | Activity | Category | Subject activity type: one of "laying", "sitting", "standing", "walking", "walking downstairs" and "walking upstairs"
+1 | Activity | Category | Subject activity type: one of "laying", "sitting", "standing", "walking", "walking_downstairs" and "walking_upstairs"
 2 | Subject_ID | Category | Subject identifier: an integer between 1 and 30
 3	|	tBodyAcc-mean()-X	|	Double	|	Between -1 and 1
 4	|	tBodyAcc-mean()-Y	|	Double	|	Between -1 and 1
