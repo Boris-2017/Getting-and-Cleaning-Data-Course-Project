@@ -29,7 +29,7 @@ Final_Tidy_Data.txt| Space-separated text file | Final tidy data set - the outco
 
 ## Sequence of Steps to Produce Final Tidy Data Set and Further Information
 
-1. Unzip original data set (consisting of training and test data sets and associated files) into a directory that must then be made the R working directory for the run_analysis.R code generating the tidy data set to operate correctly.
+1. Unzip original data set (consisting of training and test data sets and associated files) into a directory that must then be made the R working directory for the run_analysis.R code generating the tidy data set to operate correctly. Note that no alterations to folder/file structure or names are permitted.
 2. Run run_analysis.R. It will, following the course project instructions:
 	1. Add activity and subject identifiers to each of training and test datasets in the working directory.
 	2. Append the two data sets.
