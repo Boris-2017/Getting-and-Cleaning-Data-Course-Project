@@ -1,5 +1,5 @@
 ## 18.06.2017: This is the R code for the Getting and Cleaning Data Course Project on coursera.org.
-## The script below operates on the data collected from the accelerometers from the Samsung Galaxy S smartphones
+## The script below operates on the data collected from accelerometers and gyroscopes of Samsung Galaxy S II smartphones
 ##      taken from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ##      and described at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 ##  The purpose of the scipt is to prepare a tidy data set from the raw data, suitable for further analysis.
@@ -7,13 +7,14 @@
 ##  The script stages, following the course project instructions, are:
 ##      1. Add activity and subject identifiers to each of training and test datasets (note that both data sets are
 ##              assumed to have been downloaded and unzipped without any filename/folder alterations into 
-##              the UCI HAR Dataset folder and the working directory is assumed to have been set to that folder. 
+##              a folder (UCI HAR Dataset by default) and the working directory is assumed to have been set to that folder. 
 ##      2. Append the two data sets.
 ##      3. Extract only the mean and standard deviation of each measured variable in a standard 2.56s window.  
 ##      4. Remove any inadmissible values.
 ##      5. Give each activity in the data set a descriptive activity name.
 ##      6. Give each variable in the data set a descriptive variable name. 
 ##      7. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+##      8. Save this data set as a space-separated text file into the working directory.
 
 
 run_analysis <- function() 
