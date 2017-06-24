@@ -96,7 +96,7 @@ The current tidy data set has 180 rows ( + the header row) and 81 columns. It wa
 2. Averaging each mean and each standard deviation variable described above for every combination of activity type and subject. 
 3. Adding subject IDs, descriptive acitvity and variable labels.
 
-The variables below are described in the order in which they appear in the tidy data set. Note that none of these variables have any units: the ID variables are categorical and the double variables are all normalised between -1 and 1. For the double variables, a separate decsription is not given as they are all means of the quantity specified by the name of column and described above under Original Data Feature Selection.
+The variables below are described in the order in which they appear in the tidy data set. Note that none of these variables have any units: the ID variables are categorical and the double variables are the averages of the same-named variables that had been already normalised between -1 and 1. For the double variables, a separate description is not given as they are the averages of the same-named variables described above under Original Data Feature Selection.
 
 Column No. | Name | Type | Description
 -----------|------|------|------------
